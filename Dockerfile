@@ -7,7 +7,7 @@ ARG VCS_REF
 ARG BUILD_DATE
 
 # Metadata
-ENV KUBE_LATEST_VERSION="v1.10.4"
+ENV KUBE_LATEST_VERSION="v1.17.1"
 
 RUN apk add --update ca-certificates \
  && apk add --update -t deps curl \
